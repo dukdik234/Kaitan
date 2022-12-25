@@ -1,4 +1,4 @@
-_G.Key = "Oxegen-Nextgen"
+
 local key = {
     [1] = "Oxegen-Nextgen"
 }
