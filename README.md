@@ -1291,7 +1291,7 @@ if hwid[keynum] == cilentid then
             local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/WetCheezit/Bracket-V2/main/src.lua"))()
         
             -- Window
-            local Window, MainGUI = Library:CreateWindow("OXEGEN Hub NEXT Genaration Series Y")
+            local Window, MainGUI = Library:CreateWindow("OXEGEN Hub NEXT Genaration")
         
             -- Tabs
             local Tab1 = Window:CreateTab("Main")
