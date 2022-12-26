@@ -5,12 +5,13 @@ setclipboard(cilentid)
 local hwid = {
    [1] = "6614098F-3E8D-4402-9AD2-E5EA5AE06F06",
    ["6614098F-3E8D-4402-9AD2-E5EA5AE06F06"] = 1,
-
+   [2] = ""
+   [""] = 2,
 
 }
 local key = {
     [1] = "Oxegen-Nextgen"
-
+    [2] = "Test01"
 
 }
 
