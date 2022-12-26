@@ -1,7 +1,7 @@
 
 
 local cilentid = game:GetService("RbxAnalyticsService"):GetClientId()
-setclipboard(cilentid)
+
 local hwid = {
    [1] = "6614098F-3E8D-4402-9AD2-E5EA5AE06F06",
    ["6614098F-3E8D-4402-9AD2-E5EA5AE06F06"] = 1,
@@ -2375,5 +2375,6 @@ if hwid[keynum] == cilentid then
     game.Players.LocalPlayer:kick("Not have key")
    end
 else
+    setclipboard(cilentid)
     game.Players.LocalPlayer:kick("Not have key")
 end
